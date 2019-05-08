@@ -14,7 +14,7 @@ class Timer extends Component {
   }
 
   componentWillUnmount(){
-
+    this.stopClock()
   }
 
 
